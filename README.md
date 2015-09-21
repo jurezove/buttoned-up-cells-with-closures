@@ -1,4 +1,4 @@
-# Buttoned up Cells
+# [Buttoned up Cells](http://candycode.io/how-to-properly-do-buttons-in-table-view-cells/)
 
 Table views and collections are awesome, right? We're all pretty much used to customizing cells but every once in a while, we need to go one step further and add a button to the table view cell.
 
