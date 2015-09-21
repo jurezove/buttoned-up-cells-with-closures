@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		25B4FEC91BAF8DCB00E6B1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4FEC81BAF8DCB00E6B1B4 /* AppDelegate.swift */; };
-		25B4FECB1BAF8DCB00E6B1B4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4FECA1BAF8DCB00E6B1B4 /* MasterViewController.swift */; };
-		25B4FECD1BAF8DCB00E6B1B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4FECC1BAF8DCB00E6B1B4 /* DetailViewController.swift */; };
 		25B4FED01BAF8DCB00E6B1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B4FECE1BAF8DCB00E6B1B4 /* Main.storyboard */; };
 		25B4FED21BAF8DCB00E6B1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B4FED11BAF8DCB00E6B1B4 /* Assets.xcassets */; };
 		25B4FED51BAF8DCB00E6B1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B4FED31BAF8DCB00E6B1B4 /* LaunchScreen.storyboard */; };
+		25B4FEDD1BAF8E7B00E6B1B4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4FEDC1BAF8E7B00E6B1B4 /* TableViewController.swift */; };
+		25B4FEDF1BAF8ED100E6B1B4 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4FEDE1BAF8ED100E6B1B4 /* ButtonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		25B4FEC51BAF8DCB00E6B1B4 /* CellButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B4FEC81BAF8DCB00E6B1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25B4FECA1BAF8DCB00E6B1B4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		25B4FECC1BAF8DCB00E6B1B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		25B4FECF1BAF8DCB00E6B1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25B4FED11BAF8DCB00E6B1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B4FED41BAF8DCB00E6B1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25B4FED61BAF8DCB00E6B1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B4FEDC1BAF8E7B00E6B1B4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		25B4FEDE1BAF8ED100E6B1B4 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				25B4FEC81BAF8DCB00E6B1B4 /* AppDelegate.swift */,
-				25B4FECA1BAF8DCB00E6B1B4 /* MasterViewController.swift */,
-				25B4FECC1BAF8DCB00E6B1B4 /* DetailViewController.swift */,
+				25B4FEDC1BAF8E7B00E6B1B4 /* TableViewController.swift */,
+				25B4FEDE1BAF8ED100E6B1B4 /* ButtonCell.swift */,
 				25B4FECE1BAF8DCB00E6B1B4 /* Main.storyboard */,
 				25B4FED11BAF8DCB00E6B1B4 /* Assets.xcassets */,
 				25B4FED31BAF8DCB00E6B1B4 /* LaunchScreen.storyboard */,
@@ -137,9 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B4FECD1BAF8DCB00E6B1B4 /* DetailViewController.swift in Sources */,
-				25B4FECB1BAF8DCB00E6B1B4 /* MasterViewController.swift in Sources */,
 				25B4FEC91BAF8DCB00E6B1B4 /* AppDelegate.swift in Sources */,
+				25B4FEDD1BAF8E7B00E6B1B4 /* TableViewController.swift in Sources */,
+				25B4FEDF1BAF8ED100E6B1B4 /* ButtonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
