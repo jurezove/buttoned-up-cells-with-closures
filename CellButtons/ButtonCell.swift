@@ -8,19 +8,18 @@
 
 import UIKit
 
-protocol ButtonCellDelegate {
-    func cellTapped(cell: ButtonCell)
-}
-
 class ButtonCell: UITableViewCell {
-    
-    var buttonDelegate: ButtonCellDelegate?
-    @IBOutlet weak var rowLabel: UILabel!
-    
-    @IBAction func buttonTap(sender: AnyObject) {
-        if let delegate = buttonDelegate {
-            delegate.cellTapped(self)
-        }
+  var tapAction: ((UITableViewCell) -> Void)?
+
+  @IBOutlet weak var rowLabel: UILabel!
+
+  @IBAction func buttonTap(sender: AnyObject) {
+    guard let tapAction = tapAction else {
+      return
     }
+
+    tapAction(self)
+
+  }
 
 }
