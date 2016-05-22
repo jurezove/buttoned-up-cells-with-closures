@@ -19,7 +19,5 @@ class ButtonCell: UITableViewCell {
     }
 
     tapAction(self)
-
   }
-
 }
