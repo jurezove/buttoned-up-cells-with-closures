@@ -14,10 +14,6 @@ class ButtonCell: UITableViewCell {
   @IBOutlet weak var rowLabel: UILabel!
 
   @IBAction func buttonTap(sender: AnyObject) {
-    guard let tapAction = tapAction else {
-      return
-    }
-
-    tapAction(self)
+    tapAction?(self)
   }
 }
